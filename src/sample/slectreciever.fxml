@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="225.0" prefWidth="250.0" style="-fx-background-image: url(&quot;file:F:/Java/Messenger1/src/sample/appback.jpg&quot;); -fx-border-color: #090728; -fx-background-radius: 20;" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.selectrecieverController">
+   <children>
+      <Button fx:id="button1" layoutX="32.0" layoutY="30.0" mnemonicParsing="false" onAction="#setreciever" style="-fx-background-color: #C7C7F7; -fx-background-radius: 20;" text="Button">
+         <effect>
+            <InnerShadow />
+         </effect></Button>
+      <Button fx:id="button2" layoutX="93.0" layoutY="30.0" mnemonicParsing="false" onAction="#setreciever" style="-fx-background-color: #C7C7F7; -fx-background-radius: 20;" text="Button">
+         <effect>
+            <InnerShadow />
+         </effect></Button>
+      <Button fx:id="button3" layoutX="155.0" layoutY="30.0" mnemonicParsing="false" onAction="#setreciever" style="-fx-background-color: #C7C7F7; -fx-background-radius: 20;" text="Button">
+         <effect>
+            <InnerShadow />
+         </effect></Button>
+      <Button fx:id="button4" layoutX="32.0" layoutY="74.0" mnemonicParsing="false" onAction="#setreciever" style="-fx-background-color: #C7C7F7; -fx-background-radius: 20;" text="Button">
+         <effect>
+            <InnerShadow />
+         </effect></Button>
+      <Button fx:id="button5" layoutX="93.0" layoutY="74.0" mnemonicParsing="false" onAction="#setreciever" style="-fx-background-color: #C7C7F7; -fx-background-radius: 20;" text="Button">
+         <effect>
+            <InnerShadow />
+         </effect></Button>
+      <Button fx:id="button6" layoutX="155.0" layoutY="74.0" mnemonicParsing="false" onAction="#setreciever" style="-fx-background-color: #C7C7F7; -fx-background-radius: 20;" text="Button">
+         <effect>
+            <InnerShadow />
+         </effect></Button>
+      <Button fx:id="button7" layoutX="32.0" layoutY="113.0" mnemonicParsing="false" onAction="#setreciever" style="-fx-background-color: #C7C7F7; -fx-background-radius: 20;" text="Button">
+         <effect>
+            <InnerShadow />
+         </effect></Button>
+      <Button fx:id="button8" layoutX="93.0" layoutY="113.0" mnemonicParsing="false" onAction="#setreciever" style="-fx-background-color: #C7C7F7; -fx-background-radius: 20;" text="Button">
+         <effect>
+            <InnerShadow />
+         </effect></Button>
+      <Button fx:id="button9" layoutX="155.0" layoutY="113.0" mnemonicParsing="false" onAction="#setreciever" style="-fx-background-color: #C7C7F7; -fx-background-radius: 20;" text="Button">
+         <effect>
+            <InnerShadow />
+         </effect></Button>
+      <Label layoutX="70.0" layoutY="161.0" text="Please select receiver" textFill="#d6cdff" />
+   </children>
+</AnchorPane>
